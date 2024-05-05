@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+   
+    
+}
+.contact{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 20px 120px;
+} 
+.contact-phone a{
+    margin-right: 70px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+}
+.contact .contact-follow a:hover{
+    color: orange;
+}
+.contact-follow a{
+    margin-left: 50px;
+    color: white;
+    text-decoration: none
+}
+.menu{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 20px 120px;
+}
+.menu .menu-part ul{
+    list-style: none;
+}
+.menu .menu-part ul li{
+    display: inline;
+    margin-left: 30px;
+}
+.menu .menu-part .list a:hover{
+    color: orange;
+}
+/* .menu .menu-part{
+    align-items: center;
+} */
+.menu .menu-part ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+}
+/* ====================== */
+.carousel{
+    background: url(./img/banner.png);
+    background-size: cover;
+    background-size: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.carousel .text, .carousel .img{
+    float: left;
+    width: 50%;
+}
+/* .carousel .img{
+    margin-bottom: 500px;
+} */
+.carousel .text{
+    margin: 5%;
+    width: 300px;
+    
+}
+.carousel .text h1{
+    color: white;
+    font-size: 70px;
+}
+.carousel .text h1 span{
+    font-weight: normal;
+}
+.carousel .text p{
+    color: white;
+    font-size: 16px;
+    line-height: 2;
+}
+.carousel .text button{
+    margin: 100px 0;
+    padding: 15px 35px;
+    border-radius: 30px;
+    color: rgb(250, 100, 19);
+    font-size: 15px;
+}
+.carousel .text button:hover{
+    color: white;
+    background-color: orange;
+}
+/* .carousel .img{
+    position: relative;
+    top: 100px;
+} */
+/* =======product===== */
+.product .product-title{
+    text-align: center;
+    margin: 50px 0;
+}
+.product .product-title h1{
+    font-weight: normal
+}
+.product-item{
+    float: left;
+    width: calc(100%/3);
+    /* background-color: red; */
+    /* border-radius: 20px; */
+    margin: 0 auto;
+}
+.product .product-container{
+    padding: 10px;
+    
+}
+.product .product-container .product-list{
+    text-align: center;
+}
+.product .product-container .product-item .content{
+    background-color: yellow;
+    margin: 50px;
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding: 100px 30px;
+    position: relative;
+}
+.product .content .product-icon{
+    position: absolute;
+    top: 130px;
+    left: 155px;
+}
+.product-container .bk-bg{
+    
+}
+.product .product-container .product-item .content .product-text h3{
+    margin: 20px 0;
+}
+
+
+
+
+
+/* ABOUT */
+
+
+.about .img, .about .text{
+    float: left;
+    width: 50%;
+}
+.about .about-list{
+    padding: 150px;
+}
+.about .text{
+    width: 400px;
+    padding: 200px 0;
+}
+.about .about-list .text h1{
+    
+    color: black;
+    font-size: 50px;
+}
+.about .text span{
+    font-weight: normal;
+    color: black;
+    font-size: 50px;
+}
+.about .text p{
+    line-height: 2;
+}
+.about .text button{
+    padding:15px 35px ;
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+    margin: 50px 0;
+}
+.about .text button:hover{
+    background-color: white;
+    color: orange;
+}
+
+/* About 2*/
+.about-2-container{
+    padding: 0 100px;
+}
+
+.about-2-left, .about-2-right{
+    float: left;
+    width: 50%;
+}
+.about-2 .about-2-container .about-2-left .col{
+    width: 80%;
+}
+.about-2 .about-2-container .about-2-left .col h1{
+    font-size: 60px;
+}
+.about-2 .col h1 span{
+    font-weight: normal;
+}
+.about-2 .about-2-container .about-2-left .col p{
+    font-size: 16px;
+    padding: 20px 0;
+}
+.about-2 .col button{
+    padding: 15px 35px;
+    border-radius: 30px;
+    margin: 20px 0;
+    background-color: orange;
+    color: white;
+}
+.about-2 .col button:hover{
+    color: orange;
+    background-color: white;
+}
+/* ==================== */
+.about-list1, .col2{
+    float: left;
+    width: 50%;
+}
+.about-2-left{
+    margin-top: 50px;
+}
+.about-2-list .about-list1, .about-2-list .about-list2, .about-2-list .about-list3{
+    /* border: 1px solid orange; */
+    text-align: center;
+}
+.about-2-list .about-list1{
+    margin: 100px 0;
+}.about-2-list .about-list2{
+    margin-bottom: 100px;
+}
+.about-2-list .about-list3{
+
+}
+/* ============================ */
+/* out team */
+.team .text{
+    text-align: center;
+    margin: 200px 50px;
+}
+.team .text h1{
+    font-size: 50px;
+    font-weight: normal;
+    color: black;
+}
+.team-list .container{
+    text-align: center;
+    padding: 0 200px;
+    
+}
+.team .team-list .list1{
+    float: left;
+    width: calc(100%/3);
+}
+.team .content1, .team .content2, .team .content3{
+    position: relative;
+}
+.team .team-list .list1 .text1{
+    padding: 15px 25px;
+    background-color: yellow;
+    display: inline;
+    z-index: 2;
+    position: absolute;
+    bottom: -10px;
+    left: 120px;
+}
+/* ============ */
+.textSet{
+    background-image: url(./img/contact_bg.png);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 200px 0 100px;
+    
+}
+.textSet .text{
+    text-align: center;
+    padding: 150px 0 0px;
+    width: 50%;
+    margin: auto;
+}
+.textSet .text h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+.textSet .text p, .textSet .text span{
+    color: white;
+    font-size: 20px;
+    padding: 30px 0; 
+}
+.textSet .text button{
+    padding: 20px 35px;
+    background-color: white;
+    border-radius: 30px;
+    color: orange;
+}
+.textSet .text span{
+    margin: 0 20px;
+}
+.textSet .text button:hover{
+    color: white;
+    background-color: orange;
+}
+.textSet .text a{
+    text-decoration: none;
+    color: white;
+}
+/* =========================== */
+.footer .footer-container{
+    padding: 0 120px;
+}
+.footer .footer-container .footer-list .footer-item{
+    float: left;
+    width: 25%;
+}
+.footer .footer-container .footer-list .footer-item .footer-content h2, .footer .footer-container .footer-list .footer-item .footer-content a img{
+    margin: 30px 0;
+}
+.footer .footer-container .footer-list .footer-item .footer-content ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.footer .footer-container .footer-list .footer-item .footer-content ul{
+    list-style: none;
+    line-height: 3;
+    
+}
